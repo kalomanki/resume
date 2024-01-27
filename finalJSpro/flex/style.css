@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex{
+    width: 1000px;
+    height: 700px;
+    background-color: aqua;
+}
+
+
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.flex{
+    display:flex;
+   /* flex-direction: column-reverse;*/
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+}
+
+
+.first{
+    order: 1;
+}

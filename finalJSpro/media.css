@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+    .targer{
+        display: block;
+    }
+    .menu__list{
+        flex-direction: column;
+        display: none;
+    }
+    .list__link{
+        padding: 15px 0px;
+    }
+    .header__resume{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .resume__text{
+        width: 100%;
+    }
+    .text__title{
+        text-align: center;
+        font-size: 36px;
+    }
+    .text__promo{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .resume__card{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .card__text{
+        font-size: 16px;
+    }
+    .card__button{
+        width: 70%;
+    }
+    .header__info{
+        width: 100%;
+    }
+    .info__projects {
+        width: 30%;
+        height: auto;
+    }
+    .left{
+        width: 30px;
+    }
+    .slide{
+        width: 250px;
+    }
+    .right{
+        width: 30px;
+    }
+    .works__video{
+        width: 100%;
+        height: auto;
+    }
+    .form__field{
+        margin-bottom: 20px;
+        width: 70%;
+    }
+}
